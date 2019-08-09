@@ -359,3 +359,16 @@ main h1{
     margin-left: 130px;
     height: auto;
 }
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .content-box{
+        width: 10px
+    }
+  }
