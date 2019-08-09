@@ -62,6 +62,14 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.about-page{
+    font-weight: bold;
+
+}
+h2{
+    font-size: 20px;
+}
+
 p {
     line-height: 1.4;
 }
@@ -69,6 +77,28 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+nav{
+    margin-top: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 35px;
+}
+
+.header-image{
+    margin: 20px 0;
+    margin-top: 40px 
+
 }
 
 .top-content {
@@ -126,6 +156,49 @@ p {
     padding-right: 0;
 }
 
+#teal{
+    background-color: teal;
+}
+
+#gold{
+    background-color: gold;
+}
+
+#cadetblue{
+    background-color: cadetblue;
+}
+
+#coral{
+    background-color: coral;
+}
+
+#crimson{
+    background-color: crimson;
+}
+
+#forestgreen{
+    background-color: forestgreen;
+}
+
+#darkorchid{
+    background-color: darkorchid;
+}
+
+#hotpink{
+    background-color: hotpink;
+}
+
+#indigo{
+    background-color: indigo;
+}
+
+#dodgerblue{
+    background-color: dodgerblue;
+}
+
+
+
+
 footer {
     width: 100%;
     background: black;
@@ -144,3 +217,161 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(98, 98, 115);
+    color: white
+}
+
+.top-half{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: 2px dashed black;
+    padding-top: 20px;
+}
+
+.bottom-half{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.content-box{
+    border-bottom: 2px dashed black;
+    margin-bottom: 20px;
+    width: 48%
+}
+ nav a:hover{
+     color: grey;
+ }
+
+
+ #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+ #contact {
+     background:#F9F9F9;
+     padding:25px;
+     margin:50px auto;
+     width: 600px
+
+ }
+ 
+ #contact h3 {
+     color: #F96;
+     display: block;
+     font-size: 30px;
+     font-weight: 400;
+ }
+ 
+ #contact h4 {
+     margin:5px 0 15px;
+     display:block;
+     font-size:13px;
+ }
+ 
+ fieldset {
+     border: medium none !important;
+     margin: 0 0 10px;
+     min-width: 100%;
+     padding: 0;
+     width: 100%;
+ }
+ 
+ #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+     width:100%;
+     border:1px solid #CCC;
+     background:#FFF;
+     margin:0 0 5px;
+     padding:10px;
+ }
+ 
+ #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+     -webkit-transition:border-color 0.3s ease-in-out;
+     -moz-transition:border-color 0.3s ease-in-out;
+     transition:border-color 0.3s ease-in-out;
+     border:1px solid #AAA;
+ }
+ 
+ #contact textarea {
+     height:100px;
+     max-width:100%;
+   resize:none;
+ }
+ 
+ #contact button[type="submit"] {
+     cursor:pointer;
+     width:100%;
+     border:none;
+     background:black;
+     color:white;
+     margin:0 0 5px;
+     padding:10px;
+     font-size:15px;
+ }
+ 
+ #contact button[type="submit"]:hover {
+     background:grey;
+     -webkit-transition:background 0.3s ease-in-out;
+     -moz-transition:background 0.3s ease-in-out;
+     transition:background-color 0.3s ease-in-out;
+     color: black
+ }
+ 
+ #contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+ 
+ #contact input:focus, #contact textarea:focus {
+     outline:0;
+     border:1px solid #999;
+ }
+
+main h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 80px 0;
+} 
+
+.header-image-contact img{
+    width: 70%;
+    margin-left: 130px;
+    height: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .content-box{
+        width: 10px
+    }
+  }
