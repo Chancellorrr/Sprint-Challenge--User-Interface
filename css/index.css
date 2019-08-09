@@ -54,13 +54,17 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+
+.about-page{
+    font-weight: bold;
+
 }
 h2{
     font-size: 20px;
@@ -92,7 +96,9 @@ nav a{
 }
 
 .header-image{
-    margin-bottom: 20px;
+    margin: 20px 0;
+    margin-top: 40px 
+
 }
 
 .top-content {
@@ -231,6 +237,12 @@ button{
     width: 130px;
     height: 40px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(98, 98, 115);
+    color: white
 }
 
 .top-half{
@@ -256,3 +268,6 @@ button{
     margin-bottom: 20px;
     width: 48%
 }
+ nav a:hover{
+     color: grey;
+ }
